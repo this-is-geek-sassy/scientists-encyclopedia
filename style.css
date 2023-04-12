@@ -1,0 +1,48 @@
+
+header h1{
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    padding: auto;
+    justify-content: center;
+}
+
+main {
+    height: 29rem;
+    
+}
+
+section.about-text {
+    /* color: rebeccapurple; */
+    width: 50%;
+    margin: auto;
+    margin-bottom: 6rem;
+    /* justify-content: center; */
+    /* display: block; */
+}
+
+footer p {
+    /* color: red; */
+    width: fit-content;
+    margin: 7px auto;
+    /* border: 1px solid black; */
+    
+}
+
+section.nav-cards {
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+
+}
+
+section.card {
+    display: inline-block;
+    background-color: rgb(147, 147, 189);
+    height: 130px;
+    width: 25%;
+    /* justify-content: center; */
+    /* padding-top: 10px; */
+    margin-right: 4%;
+    margin-left: 4%;
+}
