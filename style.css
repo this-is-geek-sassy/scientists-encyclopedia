@@ -41,7 +41,7 @@ section.about-text {
     margin: auto;
     margin-bottom: 6rem;
     font-family: 'Alegreya SC', serif;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
 
     
@@ -70,7 +70,7 @@ div.footer-text {
 }
 
 section.nav-cards {
-    width: 95%;
+    width: 100%;
     margin: auto;
     justify-content: center;
 
@@ -79,13 +79,13 @@ section.nav-cards {
 section.card {
     display: inline-block;
     background-color: white;
-    height: 130px;
+    height: 162px;
     width: 25%;
-    /* justify-content: center; */
+    justify-content: center;
     /* padding-top: 10px; */
     margin-right: 4%;
     margin-left: 4%;
-    border-radius: 10px;
+    border-radius: 12px;
 
     text-transform: uppercase;
 }
@@ -93,14 +93,23 @@ section.card {
 section#phy-card {
     background-image: url("assests/physicscard.jpg");
     /* background-color: #0b1047; */
+    background-size: 100%;
+    /* background-position-x: center; */
+    background-position: 0%;
 }
 
 section#chem-card {
     background-image: url("assests/chemcard.jpeg");
+    background-size: 100%;
+    /* background-position-x: center; */
+    background-position: 0%;
 }
 
 section#bio-card {
     background-image: url("assests/biocard.jpg");
+    background-size: 100%;
+    /* background-position-x: center; */
+    background-position: 0%;
 }
 
 h3.topics {
