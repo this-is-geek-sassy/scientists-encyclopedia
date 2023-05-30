@@ -30,6 +30,8 @@ header h1{
 main {
     height: 29rem;
     background-image: url("assests/bgimg1.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
 }
 
 section.about-text {
