@@ -115,4 +115,8 @@ section#bio-card {
 
 h3.topics {
     color: white;
+    font-family: "Almendra SC";
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 40%;
 }
